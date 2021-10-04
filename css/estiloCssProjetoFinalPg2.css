@@ -1,0 +1,62 @@
+.container{
+display: flex;
+align-items: center;
+
+}
+.h1{
+    width:40%;
+    height: 50px;
+    border:1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+/*Fiz a estilização do botão usando essa configuração abaixo*/
+.btn{
+    border:1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+   font-size: 15px;
+   cursor: pointer;
+   
+  
+   
+}
+.btn a {
+    text-decoration: none;
+    color: rgb(114, 111, 134);
+}
+
+.quebra{
+    width: 250px;
+    font-size: 32px;
+    border: 1px solid black;
+    font-style: inherit;
+
+}
+/* usando o btn hover o botão muda de cor*/
+.btn:hover{
+    background-color: red;
+   
+    transition: 0.7s;
+    
+}
+/* usando o btn a :hover o texto dentro do botão muda de cor*/
+.btn a:hover{
+    color: white;
+
+}
+/* Usei o bg para puxar a imagem de fundo e fixar ela no site */
+.bg{
+    color:	#000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("hFundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  
+}

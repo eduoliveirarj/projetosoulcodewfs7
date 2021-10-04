@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça seu Pedido</title>
+    <link rel="stylesheet" href="css/estiloCssProjetoFinalPg3.css">
 </head>
-<body>
+
+<body class="bg">
     <!--Formulario para quem está fazendo seu pedido contem nome telefone e endereço-->
     <fieldset>
         <h2>Informações de contato</h2>
@@ -28,95 +31,96 @@
                     Telefone:
                 </label>
                 <input type="text" id=email placeholder="Telefone de Contato">
-            
+
             </p>
             <p>
-        
-                <button type="reset">
+
+                <button type="reset" class="btn">
                     Limpar
                 </button>
-                <button type="submit">
+                <button type="submit" class="btn">
                     Confirmar
-                </button> 
-            </fieldset>
+                </button>
+    </fieldset>
+    </p>
+    <p>
+    <fieldset>
+        <!--Formulario para quem está se candidatando para uma vaga contem nome telefone e endereço email 
+                estado-->
+        <h2>Trabalhe conosco</h2>
+        <form>
+            <p>
+                <label for="nome">
+                    Nome:
+                </label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
             </p>
             <p>
-            <fieldset>
-                <!--Formulario para quem está se candidatando para uma vaga contem nome telefone e endereço email 
-                estado-->
-                <h2>Trabalhe conosco</h2>
-                <form>
-                    <p>
-                        <label for="nome">
-                            Nome:
-                        </label>
-                        <input type="text" id="nome" placeholder="Digite seu nome">
-                    </p>
-                    <p>
-                        <label for="Endereço">
-                            Endereço:
-                        </label>
-                        <input type="text" id="nome" placeholder="Digite seu endereço">
-                    </p>
-                    <p>
-                        <label for="Telefone de contato">
-                            Telefone:
-                        </label>
-                        <input type="text" id=email placeholder="Telefone de Contato">
-                    
-                    </p>
-                    <p>
-                        <label for="email">
-                            email:
-                        </label>
-                        <input type="text" id=email placeholder="Digite seu email">
-                    
-                    </p>
-                    <p>
-                        <label for="estado">
-                            Estado
-                        </label>
-                        <select id="estado" name="estado">
-                            <option>Selecione o estado</option>
-                            <option velue="AC">Acre</option>
-                            <option value="AL">Alagoas</option>
-                            <option velue="AP">Amapá</option>
-                            <option velue="AM">Amazonas</option>
-                            <option value="BA">Bahia</option>
-                            <option value="CE">Ceará</option>
-                            <option value="RJ">Rio de Janeiro</option>
-                        </select>
-                        <p>
-                            
-                                <!--Radio para seleção de cargo-->
-                                <p>
-                                    <label for="cargo">
-                                        Escolha um Cargo
-                                    </label>
-                                    
-                                    <input type="radio" id="cargo1" name="cargo" value="garçon">Garçon
-                                    
-                                    <input type="radio" id="cargo2" name="cargo" value="auxDeCozinha">Auxiliar de Cozinha
+                <label for="Endereço">
+                    Endereço:
+                </label>
+                <input type="text" id="nome" placeholder="Digite seu endereço">
+            </p>
+            <p>
+                <label for="Telefone de contato">
+                    Telefone:
+                </label>
+                <input type="text" id=email placeholder="Telefone de Contato">
 
-                                    <input type="radio" id="cargo3" name="cargo" value="gerente">Gerente de Cozinha
-                                </p>
-                            
-                        </p>
-                    </p>
-                    <!---Usando textarea para para fazer o candidato falar um pouco sobre ele-->
-                        <label for="Fale sobre você">
-                            Fale sobre você:
-                        </label>
-                        <textarea id="menssagem" placeholder="Deixe sua menssagem"></textarea>
-                    
-                    <p>
-                
-                        <button type="reset">
-                            Limpar
-                        </button>
-                        <button type="submit">
-                            Confirmar
-                        </button> 
-                    </fieldset>
+            </p>
+            <p>
+                <label for="email">
+                    email:
+                </label>
+                <input type="text" id=email placeholder="Digite seu email">
+
+            </p>
+            <p>
+                <label for="estado">
+                    Estado
+                </label>
+                <select id="estado" name="estado">
+                    <option>Selecione o estado</option>
+                    <option velue="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option velue="AP">Amapá</option>
+                    <option velue="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </select>
+            <p>
+
+                <!--Radio para seleção de cargo-->
+            <p>
+                <label for="cargo">
+                    Escolha um Cargo
+                </label>
+
+                <input type="radio" id="cargo1" name="cargo" value="garçon">Garçon
+
+                <input type="radio" id="cargo2" name="cargo" value="auxDeCozinha">Auxiliar de Cozinha
+
+                <input type="radio" id="cargo3" name="cargo" value="gerente">Gerente de Cozinha
+            </p>
+
+            </p>
+            </p>
+            <!---Usando textarea para para fazer o candidato falar um pouco sobre ele-->
+            <label for="Fale sobre você">
+                Fale sobre você:
+            </label>
+            <textarea id="menssagem" placeholder="Deixe sua menssagem"></textarea>
+
+            <p>
+
+                <button type="reset" class="btn">
+                    Limpar
+                </button>
+                <button type="submit" class="btn">
+                    Confirmar
+                </button>
+    </fieldset>
 </body>
+
 </html>
