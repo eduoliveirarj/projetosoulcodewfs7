@@ -27,12 +27,20 @@ align-items: center;
     text-decoration: none;
     color: rgb(114, 111, 134);
 }
-
+p.quebra{
+    background: #f1f1f1aa;
+    width: 250px;
+    font-size: 32px;
+    border: none;
+    font-style: inherit;
+    color: black;
+}
 .quebra{
     width: 250px;
     font-size: 32px;
     border: 1px solid black;
     font-style: inherit;
+    
 
 }
 /* usando o btn hover o botão muda de cor*/
@@ -49,7 +57,7 @@ align-items: center;
 }
 /* Usei o bg para puxar a imagem de fundo e fixar ela no site */
 .bg{
-    color:	#000000;
+    color:#FFE4C4;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
